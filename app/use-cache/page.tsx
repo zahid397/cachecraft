@@ -11,7 +11,8 @@ export default async function UseCachePage() {
 
       <p>
         The function <code>getCachedTime()</code> uses{" "}
-        <code>"use cache"</code> with <code>cacheTag("time")</code>.
+        <code>"use cache"</code> and a{" "}
+        <code>cacheTag("time")</code>.
       </p>
 
       <p>
